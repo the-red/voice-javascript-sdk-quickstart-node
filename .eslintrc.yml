@@ -1,4 +1,6 @@
-extends: google
+extends:
+  - google
+  - prettier
 parserOptions:
   ecmaVersion: 6
 rules:
